@@ -1,0 +1,376 @@
+/*==================================================*/
+/* imageComponent.css*/
+.img-maindiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #f1f2f6;
+}
+
+.img-scnddiv {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 2%; */
+
+}
+
+.img-maintext-div h1 {
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-block: 2%;
+    letter-spacing: 2px;
+}
+
+.img-scndtext-div h3 {
+    font-size: larger;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-block: 2%;
+}
+
+.img-map-bgimg {
+    /* background-image: url(/public/assets/hostingdetails.webp); */
+    /* background-color: #000; */
+    width: 100%;
+    height: auto;
+    color: #f1f2f6;
+    background-repeat: repeat;
+    background-position: center center !important;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    /* width: 800px; */
+}
+
+/*============================================================*/
+
+/* Contact.js */
+/*-------------*/
+
+.contact {
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #feffff;
+    margin: 0%;
+
+}
+
+.contact-box {
+    padding: 20px;
+    margin: 10px;
+    width: 700px;
+    border-radius: 20px;
+    color: black;
+    background-color: #ffffff;
+    /* display: flex; */
+
+}
+
+.contact-textfield {
+    /* margin-right: 15%; */
+    margin-top: 2%;
+}
+
+.textfieldmsg {
+    margin-top: 2%;
+}
+
+.divtext {
+    font-size: medium;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.divtextmsg {
+    font-size: medium;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.btngrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+
+    /* margin-block-start: 3px; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    width: 10ch;
+    height: 4ch;
+    text-align: center;
+    border-color: rgb(43, 52, 35);
+    border-width: 1px;
+    background-color: #f1f2f6;
+    color: rgb(14, 14, 13);
+    border-radius: 5%;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-transform: capitalize; */
+}
+
+.btngrid div:hover .btn {
+    text-transform: capitalize;
+    background-color: black;
+    color: #feffff;
+    opacity: 1px;
+    cursor: pointer;
+    transform: rotate3d();
+}
+
+
+
+.headinggrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingstyle {
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: poppins;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-decoration-color: azure;
+    margin-inline-end: 3%;
+}
+
+/*========================================================================================================================================*/
+
+/* Footer.js */
+/*------------*/
+
+/*------------------------------------------------------------------*/
+
+/* for maincotainer and div content */
+.footer-maincontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    /* flex-wrap: wrap; */
+}
+
+.footer-box {
+    /* display: flex; */
+    width: 100%;
+    background-color: #212D3A;
+    color: aliceblue;
+    /* height:max-content; */
+    /* height: auto; */
+}
+
+.footer-rowstyle {
+    display: flex;
+    padding: 2% 3% 2% 5%;
+    flex-direction: row;
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .footer-rowstyle {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%;  */
+        justify-content: left;
+        align-items: center;
+        padding: 2%;
+    }
+}
+
+/* 
+.columnstyle{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 2% 3% 2% 5%;
+
+} */
+
+.gridstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f2f6;
+    font-size: large;
+    text-decoration: underline wavy 1px #d2dae2;
+    padding: 5px;
+
+}
+
+@media only screen and (max-width:600px) {
+    .gridstyle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #6abc83;
+        font-size: larger;
+        text-decoration: underline solid 2px #c0e5fd;
+        padding-block: 15px;
+        margin-inline-start: 0%;
+
+    }
+
+}
+
+/* .footer-grid{
+    
+} */
+
+/*----------------------------------------*/
+
+/* for logo and firm name customizetion */
+
+.logotextcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    flex-direction: row;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .logotextcontainer {
+        display: flex;
+        /* align-items: center; */
+        margin-top: 8%;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+}
+
+.logotext {
+    /* margin-left: 10%; */
+    padding-block-start: 5%;
+    color: #f1f2f6;
+    font-size: xx-large;
+    font-family: 'Nunito', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width:600px) {
+    .logotext {
+
+        /* margin-left: 10%; */
+        padding-inline-start: 6%;
+        color: #f1f2f6;
+        font-size: larger;
+        font-family: 'Nunito', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.footer-img {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+@media only screen and (max-width:600px) {
+    .footer-img {
+        background-color: rgb(255, 255, 255);
+        width: 70px;
+        border-radius: 40%;
+    }
+}
+
+
+/*------------------------*/
+
+/* Contact */
+.contactcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8%;
+    flex-direction: column;
+}
+
+.address {
+    margin-left: 0%;
+    color: #f2f3f4;
+    font-size: medium;
+    font-family: 'Nunito', ;
+
+}
+
+.contactdetails {
+    display: block;
+    margin-left: 5%;
+    color: #f2f3f4;
+    font-size: medium;
+    font-family: 'Nunito', ;
+    padding-top: 3%;
+
+}
+
+
+/*----------------------*/
+
+/* Quick Links */
+.linkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.link {
+    padding: 3%;
+    cursor: pointer;
+    font-family: 'Nunito', ;
+}
+
+.link:hover {
+    /* text-transform: lowercase; */
+    text-decoration: underline;
+}
+
+/*---------------------------------*/
+
+/* for lower grid & icons managing */
+
+.gridbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+    padding-inline-start: auto;
+}
+
+.icon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divstyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80px;
+    margin: 5px;
+    padding-inline-start: 8%;
+}
